@@ -1,0 +1,44 @@
+/* app css stylesheet */
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+50,f07146+100;Red+3D+%232 */
+
+
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+    background: #ff7b0d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7b0d 0%, #ffa84c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7b0d), color-stop(100%,#ffa84c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7b0d 0%,#ffa84c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7b0d 0%,#ffa84c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7b0d 0%,#ffa84c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7b0d 0%,#ffa84c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7b0d', endColorstr='#ffa84c',GradientType=0 ); /* IE6-9 */
+    border-radius: 3px;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
